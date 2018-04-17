@@ -1,0 +1,38 @@
+.blue-background {
+    background-color: darkblue;
+    border: 1px solid black;
+}
+.white {
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.breaker {
+    background-color: cornflowerblue;
+    height: 1vh;
+}
+article {
+    width: 50vh;
+    margin-left: 15vh;
+    display: inline-block;
+}
+aside  {
+display: inline-block;
+width: 30vh;
+margin-left: 6vh;
+}
+
+article p::first-letter {
+    size: 2em;
+    color: red;
+}
+
+header {
+    height: 100px;
+}
+footer {
+    background-color: darkblue;
+    border: 1px solid black;
+    height: 20vh;
+}
